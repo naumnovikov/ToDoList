@@ -59,7 +59,7 @@
 
 1. **Клонируйте репозиторий**
     ```bash
-    git clone https://github.com/ваш-логин/ToDoList.git
+    git clone https://github.com/naumnovikov/ToDoList.git
     cd ToDoList
     ```
     
