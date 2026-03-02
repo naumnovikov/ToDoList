@@ -96,7 +96,7 @@
     
 На macOS приложение может быть упаковано в .app. В этом случае запустите его командой:
 ```bash
-    open ToDoList.app
+open ToDoList.app
 ```
     
 ### Windows:
