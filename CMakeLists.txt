@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Sql)
 
 qt_standard_project_setup()
+set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/src/forms)
 
 qt_add_executable(ToDoList
     WIN32 MACOSX_BUNDLE
