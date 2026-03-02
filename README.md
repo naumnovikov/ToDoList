@@ -89,14 +89,14 @@
 
 После успешной сборки исполняемый файл появится в папке сборки.
     
-### macOS/Linux:
+### Linux:
   ```bash
   ./ToDoList
   ```
     
-На macOS приложение может быть упаковано в .app. В этом случае запустите его командой:
+### На macOS приложение нужно запускать следующей командой:
 ```bash
-open ToDoList.app
+cd ToDoList.app/Contents/MacOS && open ToDoList
 ```
     
 ### Windows:
